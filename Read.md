@@ -34,9 +34,14 @@ https://digital-clock-19d5f5.netlify.app/
 
 ---
 
-##  How to Run
-1. Clone the repository
-2. Open `index.html` in browser
+##  Project Access
+
+
+This project is deployed and can be accessed online:
+
+🔗 Live Website: https://digital-clock-19d5f5.netlify.app/
+
+No installation required — just open and use it.
 
 ---
 
