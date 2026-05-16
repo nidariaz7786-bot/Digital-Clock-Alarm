@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 380px;
+    background: #1e293b;
+    padding: 30px 25px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#clock {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 20px 0;
+    word-break: break-word;
+}
+
+.alarm-section h2 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+input[type="time"],
+input[type="range"] {
+    width: 100%;
+    margin: 10px 0 15px;
+}
+
+input[type="time"] {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+
+label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 0.95rem;
+}
+
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #38bdf8;
+    color: #0f172a;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: #0ea5e9;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+
+@media (max-width: 480px) {
+    .container {
+        padding: 25px 20px;
+        border-radius: 12px;
+    }
+
+    .container h1 {
+        font-size: 1.6rem;
+    }
+
+    #clock {
+        font-size: 2.2rem;
+    }
+
+    .alarm-section h2 {
+        font-size: 1.1rem;
+    }
+
+    button {
+        padding: 11px;
+        font-size: 0.95rem;
+    }
+}
+
+
+@media (max-width: 320px) {
+    #clock {
+        font-size: 1.8rem;
+    }
+
+    .container h1 {
+        font-size: 1.4rem;
+    }
+}
